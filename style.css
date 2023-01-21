@@ -1,0 +1,132 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Baloo+Bhai+2&family=Balsamiq+Sans&family=Bree+Serif&family=Ubuntu&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: beige;
+}
+.navbar{
+    background-color: black;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    list-style-type: none;
+    color: white;
+    font-family: cursive ;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 0.6rem;
+    color: white;
+    font-family: cursive;
+    padding: 0px 12px;
+    }
+ul li img{
+    height: 40px;
+    padding: 0px 8px;
+}
+.brand{
+display: flex;
+font-size: 1.3rem;
+align-items: center;
+}
+/* .container */
+.container{
+    display: flex;
+    height: 75vh;
+    width: 60vw;
+    background-color: black;
+    color: white;
+    border-radius: 14px;
+    margin: 6px auto;
+    background: url('/bg.jpg') no-repeat center center/cover;
+}
+.container h2{
+    margin: 11px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+
+/* Songs display Section */
+
+.songs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    margin: 4px 12px;
+    padding: 4px 0px;
+    background-color: white;
+    color: black;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 12px;
+    border-radius: 14px;
+}
+.songs img{
+height: 20px;
+border-radius: 14px;
+}
+.timeStamp{
+    display: flex;
+    align-items: center;
+}
+.timeStamp img{
+    padding: 1px 4px;
+    height: 15px;
+    margin-top: 1px;
+    cursor: pointer;
+}
+
+/* Songs play section */
+.bottom{
+    position: sticky;
+    bottom: 0;
+    background-color: black;
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bottom img{
+    height: 29px ;
+    filter: invert(100%);
+    padding: 0px 6px;
+}
+#myProgressBar{
+    width: 60%;
+    margin: 0px 7px;
+    cursor: pointer;
+}
+#pausePlay{
+    display: flex;
+    align-items: center;
+    margin: 4px;
+    padding: 3px;
+    justify-content: center;
+}
+#pausePlay img{
+    cursor: pointer;
+}
+.songPlayingGif{
+    display: flex;
+   align-items: center;
+   text-align: center;
+   font-family: cursive;
+   position: absolute;
+   left: 19vw;
+   width: 250px;
+   color: white;
+   }
+.songPlayingGif img{
+    width: 40px;
+    height: 20px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}

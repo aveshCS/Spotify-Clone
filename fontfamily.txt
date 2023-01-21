@@ -1,0 +1,5 @@
+font-family: 'Baloo 2', cursive;
+font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Balsamiq Sans', cursive;
+font-family: 'Bree Serif', serif;
+font-family: 'Ubuntu', sans-serif;
